@@ -23,13 +23,13 @@
         android:id="@+id/convert_button"/>
 
     <Button
-        android:text="Button"
+        android:text="Custom Setter Activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button6"/>
+        android:id="@+id/custom_setter"/>
 
     <Button
-        android:text="Button"
+        android:text="xxxx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button7"/>

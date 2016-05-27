@@ -38,6 +38,11 @@ public class DataBindingActivity extends Activity {
         startActivity(new Intent(this,ConvertActivity.class));
     }
 
+    @OnClick(R.id.custom_setter)
+    void customSetter() {
+        startActivity(new Intent(this,CustomSetterActivity.class));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
