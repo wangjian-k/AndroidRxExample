@@ -42,12 +42,12 @@
         tools:layout_constraintRight_creator="0"/>
 
     <Button
-        android:text="Button"
+        android:text="Retrofit Example"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="311dp"
-        android:id="@+id/button3"
+        android:id="@+id/retrofit_button"
         app:layout_constraintLeft_toLeftOf="@+id/activity_main"
         tools:layout_constraintLeft_creator="0"
         app:layout_constraintTop_toBottomOf="@+id/databinding_button"

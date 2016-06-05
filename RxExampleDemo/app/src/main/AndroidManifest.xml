@@ -24,6 +24,10 @@
         <activity android:name=".databinding.UpdateUserActivity"/>
         <activity android:name=".databinding.ConvertActivity"/>
         <activity android:name=".databinding.CustomSetterActivity"/>
+        <activity android:name=".retrofit.RetrofitMainActivity"/>
+        <activity android:name=".retrofit.GithubActivity"/>
+        <activity android:name=".zoomeye.ZoomEyeLogin"/>
+        <activity android:name=".zoomeye.ZoomEyeSearch"/>
     </application>
 
 </manifest>

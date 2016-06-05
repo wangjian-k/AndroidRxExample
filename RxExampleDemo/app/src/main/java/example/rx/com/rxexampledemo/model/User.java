@@ -13,6 +13,7 @@ public class User extends BaseObservable {
 
     private String name;
     private String age;
+    private String email;
 
     /**
      * 注意: 在BR里对应的常量为follow
@@ -54,5 +55,15 @@ public class User extends BaseObservable {
     public void setIsFollow(boolean isFollow) {
         this.isFollow = isFollow;
         notifyPropertyChanged(BR.follow);
+    }
+
+    @Bindable
+    public void setEmail(String email) {
+        this.email = email;
+        notifyPropertyChanged(BR.email);
+    }
+
+    public String getEmail() {
+        return email;
     }
 }

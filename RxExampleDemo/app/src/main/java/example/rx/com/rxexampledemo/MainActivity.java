@@ -10,6 +10,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import example.rx.com.rxexampledemo.butterknife.ButterKnifeSampleActivity;
 import example.rx.com.rxexampledemo.databinding.DataBindingActivity;
+import example.rx.com.rxexampledemo.retrofit.RetrofitMainActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
     public Button button1;
     @BindView(R.id.databinding_button)
     public Button button2;
-    @BindView(R.id.button3)
-    public Button button3;
 
 
     @Override
@@ -39,5 +38,10 @@ public class MainActivity extends AppCompatActivity {
     void button2Click() {
 //        Toast.makeText(this, "button2 is onclicked!!!", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(this, DataBindingActivity.class));
+    }
+
+    @OnClick(R.id.retrofit_button)
+    void retrofitButtonClick() {
+        startActivity(new Intent(this, RetrofitMainActivity.class));
     }
 }
